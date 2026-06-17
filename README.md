@@ -31,9 +31,29 @@ This project aims to answer the following questions:
 
 ---
 
-## The Analysis
+## Project Workflow
 
-### 1. Top Paying Data Scientist Jobs
+```text
+Raw Job Posting Data
+        ↓
+ Data Cleaning
+        ↓
+ SQL Analysis
+        ↓
+ Salary Analysis
+        ↓
+ Skill Demand Analysis
+        ↓
+ Data Visualization
+        ↓
+ Career Insights & Recommendations
+```
+
+---
+
+# The Analysis
+
+## 1. Top Paying Data Scientist Jobs
 
 This analysis identified the highest-paying remote Data Scientist positions in the dataset.
 
@@ -50,7 +70,7 @@ This analysis identified the highest-paying remote Data Scientist positions in t
 | Director of Data Science                           | Storm4             |                   300,000 |
 | Distinguished Data Scientist                       | Walmart            |                   300,000 |
 
-#### Key Insights
+### Key Insights
 
 * The highest-paying role offered an annual salary of **$550,000**.
 * Senior leadership positions such as **Head of Data Science** and **Director of Data Science** dominated the top-paying roles.
@@ -58,7 +78,7 @@ This analysis identified the highest-paying remote Data Scientist positions in t
 
 ---
 
-### 2. Top Paying Job Skills
+## 2. Top Paying Job Skills
 
 This analysis examined the skills most frequently associated with the highest-paying Data Scientist positions.
 
@@ -72,7 +92,7 @@ This analysis examined the skills most frequently associated with the highest-pa
 | TensorFlow |         2 |
 | PyTorch    |         2 |
 
-#### Key Insights
+### Key Insights
 
 * **Python** was the most common skill among top-paying roles.
 * **SQL** remained a critical skill despite the seniority of the positions.
@@ -81,7 +101,9 @@ This analysis examined the skills most frequently associated with the highest-pa
 
 ---
 
-### 3. Top Demanded Skills
+## 3. Top Demanded Skills
+
+![Top Demanded Skills](images/top_demanded_skills.png)
 
 This analysis identified the skills most frequently requested by employers.
 
@@ -93,7 +115,7 @@ This analysis identified the skills most frequently requested by employers.
 | Tableau |       29,513 |
 | AWS     |       26,311 |
 
-#### Key Insights
+### Key Insights
 
 * **Python** was the most in-demand skill by a significant margin.
 * **SQL** ranked second, reinforcing its importance as a foundational data skill.
@@ -103,7 +125,9 @@ This analysis identified the skills most frequently requested by employers.
 
 ---
 
-### 4. Top Skills Based on Salary
+## 4. Top Skills Based on Salary
+
+![Top Paying Skills](images/top_paying_skills.png)
 
 To determine the most financially rewarding skills, I calculated the average salary associated with each skill.
 
@@ -120,7 +144,7 @@ To determine the most financially rewarding skills, I calculated the average sal
 | Ruby on Rails |            166,500 |
 | RShiny        |            166,436 |
 
-#### Key Insights
+### Key Insights
 
 * Specialized and niche technologies were associated with the highest salaries.
 * AI and machine learning technologies such as **Watson** and **Hugging Face** showed strong earning potential.
@@ -129,7 +153,9 @@ To determine the most financially rewarding skills, I calculated the average sal
 
 ---
 
-### 5. Optimal Skills to Learn
+## 5. Optimal Skills to Learn
+
+![Optimal Skills](images/optimal_skills_scatter.png)
 
 This analysis combined demand and salary data to identify the skills that provide the strongest balance between employability and earning potential.
 
@@ -146,14 +172,14 @@ This analysis combined demand and salary data to identify the skills that provid
 | PyTorch    |          115 |            152,603 |
 | Pandas     |          113 |            144,816 |
 
-#### Key Insights
+### Key Insights
 
 * **Python** and **SQL** offer the strongest combination of demand and salary.
 * Cloud platforms (**AWS**, **Azure**, **GCP**) continue to be highly valuable.
 * Machine learning skills such as **TensorFlow** and **PyTorch** are associated with above-average salaries.
 * Data engineering tools such as **Spark** and **Snowflake** provide strong career opportunities.
 
-#### Career Recommendation
+### Career Recommendation
 
 For aspiring Data Scientists, the most strategic skills to learn are:
 
